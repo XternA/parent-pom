@@ -10,6 +10,7 @@
 
     <name>parent-pom</name>
     <description>Parent pom with base dependencies and build configurations</description>
+    <url>https://github.com/XternA/parent-pom</url>
 
     <licenses>
         <license>
