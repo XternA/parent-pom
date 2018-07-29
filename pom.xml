@@ -12,9 +12,9 @@
     <description>Parent pom with base dependencies and build configurations</description>
 
     <scm>
-        <connection>scm:git:git//github.com:XternA/parent-pom.git</connection>
-        <developerConnection>scm:git:git@github.com:XternA/parent-pom.git</developerConnection>
         <url>https://github.com/XternA/parent-pom.git</url>
+        <connection>scm:git:https://github.com/XternA/parent-pom</connection>
+        <developerConnection>scm:git:https://github.com/XternA/parent-pom</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -173,6 +173,8 @@
                         <target>${maven.compiler.target}</target>
                         <optimize>${maven.compiler.optimize}</optimize>
                         <debug>${maven.compiler.runtime.debug}</debug>
+                        <showWarnings>true</showWarnings>
+                        <showDeprecation>true</showDeprecation>
                         <meminitial>128m</meminitial>
                         <maxmem>512m</maxmem>
                     </configuration>
